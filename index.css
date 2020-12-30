@@ -1,64 +1,5 @@
 *{
-    box-sizing: border-box;
-}
-
-
-
-.follow {
-    color: blue; border-radius: 50px;  background-color: white;
-     width: 90px; height: 40px;
-   
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 600;
-    font-family: inherit;
-   
-    position: relative;
-    text-align: center;
-    background: transparent;
-    background-attachment: scroll;
-    text-decoration-color: mediumblue;
-    border-color: mediumblue;
-    padding-left: 24px;
-    padding-right: 24pxs;
-    padding-bottom: 5px;
-    padding-top: 2px;
-    text-align: center;
-    margin: 2px 0 2px 4px;
-    border-bottom-left-radius: 48px;
-    border-bottom-left-radius: 48px;
-    padding: 0 16px 0 16px;
-}
-#bc {
-    background-color: rgb(216, 209, 209);
-    border-style: none;
-    padding: 2px 10px 2px 10px;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-.dropdown{
-    border: black ; border-width: medium; border-style: solid; border-radius: 5px; width: 250px; height: 40px;
-}
-#search{
-    border-style: ridge; border-radius: 5px; width: 300px;
-}
-#jobbotton{
-    background-color: rgb(48, 48, 160);  width: 90px; height: 40px; border-radius: 50px; text-decoration: white; text-decoration-color: white;
-    border-color: black;
-    cursor: pointer;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 5px;
-    padding-top: 2px; 
-    font-size: 0.80rem;
-    font-weight: 500;
-    font-family: inherit;
-    text-align: inherit;
-    /* text-decoration-color: white;/ */
-    /* text-emphasis-color: white;/ */
-
-    
+     box-sizing: border-box; 
 }
 html{
     font-size: 1rem;
@@ -66,33 +7,204 @@ html{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
    
 }
-.emplo{
-    font-size: 1rem;
-    font-family: inherit;
-    font-weight: 400;
-}
-.head{
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 31.99px;
-    
-}
-.loc{
-    font-size: 1.5rem;
-    font-weight: 400;
-
-}
-.dir{
-    cursor: pointer;
-    color: blue;
-    font-weight: 500;
+.linkd{
+    float: left;
+    margin-left: 80px;
+   
 }
 .jn{
-    font: 1rem;
+  border: 1px transparent white;
+  width: 100px;
+  height: 30px;
+  margin-left: 50px;
+  font-weight: 500;
+  margin-top: -30px;
+}
+.follow{
+ border: 2px solid blue;
+ border-radius: 20px ;
+ width: 90px;
+ height: 30px;
+ float: right;
+ background-color: white;
+ margin-top: -20px;
+ margin-right: 180px;
+ font-weight: 600;
+}
+.search{
+    width: 20%;
+    height: 40px;
+    float: left;
+    
+    background-color: rgb(245, 241, 241);
+    border: 1px transparent white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.sea{
+    width: 20%;
+    height: 40px;
+    float: left;
+   
+    background-color:rgb(245, 241, 241);
+    /* border: 1px transparent white; */
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.sear{
+    width: 50px;
+    height: 40px;
+    float: left;
+    border-top-right-radius: 7px;
+    background-color:rgb(245, 241, 241);
+    /* border: 1px transparent white; */
+    border-bottom-right-radius: 7px;
+    padding-left: 15px;
+}
+.lab{
+    width: 5%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(245, 241, 241);
+    border: 1px transparent white;
+}
+#jobs{
+    width: 70px;
+    height: 40px;
+    float: left;
+    border-top-left-radius: 7px;
+    background-color:rgb(245, 241, 241);
+    border: 1px transparent white;
+    margin-left: 30px;
+    border-bottom-left-radius: 7px;
+}
+
+.hero{
+    /* margin-left: 80px; */
+    border-radius: 25px;
+
+}
+.mainlogo{
+     margin-left: 20px; 
+    border: 1px transparent white;
+    border-radius: 15px;
+}
+.work{
+     margin-left: 20px; 
+    line-height: 8px;
+}
+.emplo{
+    float: right;
+    padding-top: 30px;
+    margin-top: -130px;
     font-weight: 500;
-    padding: 2px;
-    color: gray;
+}
+.flw{
+ border: 2px solid blue;
+ border-radius: 20px ;
+ width: 90px;
+ height: 30px;
+ background-color: white;
+ float: left;
+ 
+ font-weight: 600;
+ 
+}
+#overallbox{
+    border: 2px solid whitesmoke;
+    margin-left: 80px;
+    width: 55%;
+    height: 550px;
+    border-radius: 25px;
+    box-shadow: black;
 }
 .ov{
-    font-weight: 500;
+  font-weight: 600;
+  margin-left: 25px;
 }
+.ov1{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.ov2{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.ov3{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.head{
+    margin-left: 100px;
+    font-weight: 700;
+}
+.sidecont{
+    border: 1px transparent white;
+    width: 25%;
+    height: 600px;
+    float: right;
+    /* padding-left: 25px; */
+    margin-top:  -573px;
+    margin-right: 155px;
+    /* padding-top: 200px; */
+    padding-bottom: 10px;
+
+}
+.imgg{
+  float: left; 
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  /* padding-left: 5px; */
+  
+}
+.jio{
+    border: 1px transparent white;
+    width: 177px;
+    margin-left: 70px;
+    line-height: 2px;
+    padding: 0px 5px 5px 10px;
+}
+.hpemplo{
+    width: 45%;
+    margin-left: 100px;
+    line-height: 3px;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+     
+}
+.hpemploy{
+    width: 45%;
+    line-height: 3px;
+    padding-left: 10px;
+    padding-top: 20px;
+    float:left;
+   
+     
+}
+.writ{
+    /* border: 1px solid black; */
+    margin-left: 70px;
+    margin-top: -10px;  
+}
+.seeemp{
+    border: 2px solid blue;
+    border-radius: 20px ;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+    font-weight: 600;
+}
+.down{
+    color: rgb(116, 111, 111);
+    font-weight: 600;
+    border-color: white;
+}
+

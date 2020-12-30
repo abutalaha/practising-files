@@ -9,62 +9,134 @@
 <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <img src="1024px-LinkedIn_Logo_2013.svg.png" alt="linkedIn logo" width="100px" height="20px">
-        &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <aside>
-     <nav>
-         <a href="https://linkedin.com" target="_blanck" class="jn"> Join Now</a>
-         <button class="follow" >Sign In</button>
-        </nav>
-    </aside>
-    </section>
-    <section>
-        <p id="search">
-       <input type="text" placeholder="&#128269; LinkedIn in Worldwide" >
-       <!-- width didnt worked here -->
+    <div class="linkd">
+        <img src="1024px-LinkedIn_Logo_2013.svg.png" alt="linkedIn logo" width="150px" height="40px" >
+    </div>
+    <div>
+        <form >
+             <select name="jobs" id="jobs">
+              <option value="jobs">Jobs</option>
+              <option value="people">people</option>
+              <option value="learning">learning</option>
+            </select>
+        </form>
+    </div>
+    <form >
+        <select name="jobs" class="search">
+         <option value="jobs">Homepage</option>
+         <option value="people">Homepage IT solution</option>
+         <option value="learning">Homepage helden GMBH</option>
+       </select>
+   </form>
+
+    <form action="">
+        <p >
+          <input type="text" placeholder="World wide " class="sea">
+          <!-- border is appering  didnt get why?  -->
          </p>
+     </form>
+    <form action="">
+        <p >
+          <input type="text" placeholder="&#128269;" class="sear">
+        </p>
+    </form>
+    
+    <div  >
+        <nav>
+         <a href="https://linkedin.com" target="_blanck" class="jn"> Join Now</a>
+        </nav>
+    </div> 
+    <div >
+     <button class="follow" >Sign In</button>
+    </div>'
+    
+    <br><br>
+      <div id="overallbox">
+         <section>
+           <img src="download.jpg" alt="hero image" width="100%" height="200px" class="hero" >
+           <!-- learn image overlapping -->
+           <img src="76685414-asian-professional-working-with-laptop.jpg" alt="hero image" width="150px" height="150px" class="mainlogo">
+           <br>
+          </section>
+         <div class="work">
+           <h2>Home page</h2> 
+           <p style="font-weight ; 500">Marketing and Advertising</p>
+           <p>Novi Sad, Vojvodina 5,842 follower</p>
+           <p>Creative.Digital.</p>
+           
+           <div class="emplo">
+             <img src="" alt="employee image round icon">
+             <a href="https://dgyadcg">View all 19857 employees</a>
+           </div>   
+         <br>
+          <button class="flw">Follow</button>
+         </div>
+        </div>
+        
+        <div class="sidecont">
+            <p style="font-weight: 600 ;font-size: large;padding-left: 5px;">Affiliated pages</p>
+              <img src="alex-motoc-N7-Zgcp8oXk-unsplash.jpg" alt="round" class="imgg">
+                 <div  class="jio" > 
+                     <p style="font-weight: 600;">Rise programme</p>
+                     <p style="font-size: small;">Retail</p>
+                     <p style="font-size: small;">Biograd./</p>
+                 </div> 
+       <br><br>
+
+             <div>
+                <img src="jeanson-wong-2c8Iq-1fL1s-unsplash.jpg" alt="round" class="imgg">
+                  <div class="jio">
+                      <p style="font-weight: 600;">Build our Salesforce</p>
+                      <p style="font-size: small;">Retail</p>
+                   </div>
+             </div>
+             
+       <br><br>
+
+            <div>
+                <img src="xps-ocAuPlfZXEc-unsplash.jpg" alt="round"  class="imgg">
+                <div class="jio">
+                   <p style="font-weight: 600;">Da li prihvatas izazov?</p>
+                   <p style="font-size: small;">Marketing and Advertising</p>
+                </div>
+            </div>
+
+       <br><br>
+
+            <div>
+                <img src="bernie-almanzar-cHbl5Av_Agk-unsplash.jpg" alt="round" class="imgg">
+                <div class="jio">
+                    <p  style="font-weight: 600;">Homepage Ino</p>
+                </div>
+            </div>
+       <br><br>
+            <form>
+                <label for="pages" ></label>
+                <select name="pages" id="pages" class="down">
+                 <!-- changing width of option is not happening here  -->
+                 <option value="Show more affiliated pages">Show more affiliated pages</option></select>
+            </form>
+        </div>
+        <br><br>
+    <hr style="margin-left: 80px">
+    <section style="margin-left: 80px" >
+        <a href="page" class="ov">Overview</a> 
+        <a href="page"class="ov1">jobs</a>
+        <a href="page"class="ov2">Life</a>
+        <a href="page"class="ov3">Recnt Alumni</a>
     </section>
-   
-        <section>
-        <img src="download.jpg" alt="hero image" width="500px" height="300px">
-        <!-- how to do side by side image/ -->
-        <img src="76685414-asian-professional-working-with-laptop.jpg" alt="hero image" width="500px" height="300px"> <br><br>
-        <img src="1024px-LinkedIn_Logo_2013.svg.png" alt="" width="50px" height="50px">
-        <!-- logo should be over lapped with hero image  -->
-    </section>
-    <div>
-        <span><h2>LinkedIn</h2> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- span tag didnt worked here/ -->
-    <aside>
-        <section class="emplo">
-        <img src="" alt="employee image round icon">
-        <a href="https://dgyadcg">View all 19857 employees</a>
-    </section>
-    </aside>
-    </div>
-    <div>
-        <button id="jobbotton">See jobs</button>
-        <button class="follow">Follow</button>
-        <!-- work on text colour, text decoration colour does not worked here/ -->
-    </div>
-    <hr>
-    <br>
-    <section>
-        <a href="page" class="ov">Overview</a> &nbsp;&nbsp;&nbsp;
-        <a href="page"class="ov">jobs</a>&nbsp;&nbsp;&nbsp;
-        <a href="page"class="ov">Life</a>&nbsp;&nbsp;&nbsp;
-        <a href="page"class="ov">Recnt Alumni</a>
-    </section>
-    <hr>
-    <section>
-        <h3 class="head">About us</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis accusantium voluptas iure.</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellendus expedita corporis optio facilis dignissimos earum modi exercitationem, qui asperiores error eos deserunt, commodi placeat fugit atque pariatur blanditiis nemo. Ipsum voluptates impedit facere voluptatem quo, mollitia reprehenderit, laborum labore cumque natus expedita? Quam aliquid ipsum similique beatae accusantium in dolorem autem ad ullam inventore alias, veritatis, voluptate aut magni quia nesciunt, reprehenderit illo voluptas laboriosam voluptatem impedit omnis quidem eos? Officia animi officiis, fugit incidunt eum iure voluptatum alias, nesciunt fuga voluptas earum delectus autem dolore possimus eius. Totam recusandae maxime soluta eos doloremque reiciendis, neque dicta modi vitae.</p>
+    <hr  style="margin-left: 80px">
+    <section >
+        <p class="head">About us</p>
+        <p style="margin-left: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis accusantium voluptas iure.</p>
+        
+        <p style="margin-left: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellendus expedita corporis optio facilis dignissimos earum modi exercitationem, qui asperiores error eos deserunt, commodi placeat fugit atque pariatur blanditiis nemo. Ipsum voluptates impedit facere voluptatem quo, mollitia reprehenderit, laborum labore cumque natus expedita? Quam aliquid ipsum similique beatae accusantium in dolorem autem ad ullam inventore alias, veritatis, voluptate aut magni quia nesciunt, reprehenderit illo voluptas laboriosam voluptatem impedit omnis quidem eos? Officia animi officiis, fugit incidunt eum iure voluptatum alias, nesciunt fuga voluptas earum delectus autem dolore possimus eius. Totam recusandae maxime soluta eos doloremque reiciendis, neque dicta modi vitae.</p>
 
     </section>
-    <table>
+    <div class="head">
+
+      <table   >
+        <!-- class is not working for table (ie... margin left)  -->
         <tr>
             <b>Website </b>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <link rel="stylesheet" href="https://dvguufgwu"> https://lnkd.in/jobs1icon
@@ -87,44 +159,93 @@
         <br><br>
         <tr>
             <b>Specialities </b>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            Online Professional Network,Jobs,People Search,Company &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search, Address Book, Advertising, Professional Identity, and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Group Collaboration
+            Online Professional Network,Jobs,People Search,Company & Search, Address Book, Advertising, Professional Identity, and Group Collaboration
         </tr>
         <br><br>
-        <hr>
-        <br><br>
-    </table>
+       
+        
+      </table>
+    </div>
+    <hr style="margin-left: 80px">
     <section>
-    <h3 class="loc">
+    <p class="head">
         Locations
-    </h3>
-  <span id="bc"> Primary </span>
- <div>
+    </p>
+  <span style="margin-left: 100px"> Primary </span>
+ <div style="margin-left: 100px">
      1000W Maude <br> Sunnyvale, CA 94085, US <br>
      <a href="maps" class="dir">Get direction</a>
  </div> <br><br>
- <div>
+ <div style="margin-left: 100px">
      Sendlinger Strasse 12<br> Munich, BY 80331, DE <br>
      <a href="maps"class="dir">Get direction</a>
  </div> <br><br>
- <div>
+ <div style="margin-left: 100px">
      222 2nd St <br> San Francisco, CA 94105, US<br>
      <a href="maps"class="dir">Get direction</a>
  </div> <br><br>
- <div>
+ <div style="margin-left: 100px">
      Paseo de la Castellana, 202 <br>Madrid, Community,of Madrid 28046, ES <br>
      <a href="maps"class="dir">Get direction</a>
  </div> <br><br>
      </section>
      
-     <label for="drpdown">
+     <label for="drpdown" style="margin-left: 100px">
      </label>
-    <select name="" id="drpdown" class="dropdown" >
+     <select name="" id="drpdown" >
          <option value="drpdown">Select more locations</option>
          <option value="drpdown">India</option>
          <option value="drpdown">Kenya</option>
          <option value="drpdown">singapore</option>
-     </select> <br><br>
-     <hr> <br><br>
+     </select>
+ <br><br>
+ <section class="head">
+     <p>Employees at homepage</p>
+   </section>
+    
+    <div class="hpemplo">
+        <img src="e1.jpg" alt="" class="imgg">
+           <div class="writ">
+                <p style="font-weight: 600;">Nicola Sologub</p>
+                <p style="font-size: small;">Tech Entrpreneur.Product Owner.</p>
+                <p  style="font-size: small;">Blockchain Solution Architect</p>
+           </div>
+    </div>
+    <div class="hpemploy" >
+           <img src="e2.jpg" alt="" class="imgg">
+             <div class="writ">
+                <p style="font-weight: 600;">Hakan Aki</p>
+                <p style="font-size: small;">Online-Journalist Sport and Boulevard</p>
+                <p style="font-size: small;">Buchbeiitrag: Sportunternehmen</p>
+                <p style="font-size: small;">grunden und fuhren. Schaffer-Poeschel</p>
+                <p style="font-size: small;">Verlag</p>
+              </div>
+    </div>
+    <div  class="hpemplo">
+        <img src="e3.jpg" alt="" class="imgg">
+         <div class="writ">
+             <p style="font-weight: 600;">Zoran Zivkovic</p>
+             <p  style="font-size: small;">Business Owner at loTartic Start-up</p>
+             <p  style="font-size: small;">Company</p>
+         </div>
+    </div>
+    <div class="hpemploy" >
+        <img src="e4.jpg" alt="" class="imgg">
+          <div class="writ">
+             <p style="font-weight: 600;">Miljana Kljun Stankic</p>
+             <p style="font-size: small;">Digital Account Manager at Homepage</p>
+             <p style="font-size: small;">Buchbeiitrag: Sportunternehmen</p>
+             <p style="font-size: small;">grunden und fuhren. Schaffer-Poeschel</p>
+             <p style="font-size: small;">Verlag</p>
+           </div>
+    </div>
+    <br>
+    <button class="seeemp">See all Employees</button>
+    <br>
+    <hr>
+   
+
+
     
 </body>
 </html>
